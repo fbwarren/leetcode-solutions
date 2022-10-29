@@ -1,4 +1,4 @@
-# [39. Combination Sum](https://leetcode.com/problems/combination-sum)
+# [57. Insert Interval](https://leetcode.com/problems/insert-interval)
 
 **Main Idea**: "Merging" two intervals that are overlapping means just setting the left to be the min of both intervals and the right to be the max of both.
 
