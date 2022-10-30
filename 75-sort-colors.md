@@ -28,7 +28,7 @@ O(n), but it takes two passes so it's more like O(2n)
 **Space complexity**  
 O(1) since `counts` is our only auxiliary data structure and it's always the same size.
 
-**Second Algorithm**  
+**Better Algorithm**  
 The key to this algorithm is that we are looping through `nums` while maintining a [loop invariant](https://en.wikipedia.org/wiki/Loop_invariant).  
 A loop invariant is simply some condition that we make sure is always true between loop iterations.  
 To me, it seems that a loop invariant is useful in the same way the [recursive leap of faith](https://people.eecs.berkeley.edu/~bh/pdf/v1ch08.pdf) is - we don't have to think to hard about why it works as long as we *assume* it does.  
