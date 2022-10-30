@@ -23,8 +23,10 @@ def sortColors(nums):
     return nums
 ```
 
-**Time complexity:** O(n), but it takes two passes so it's more like O(2n)  
-**Space complexity:** O(1) since `counts` is our only auxiliary data structure and it's always the same size
+**Time complexity**  
+O(n), but it takes two passes so it's more like O(2n)  
+**Space complexity**  
+O(1) since `counts` is our only auxiliary data structure and it's always the same size.
 
 **Second Algorithm**  
 The key to this algorithm is that we are looping through `nums` while maintining a [loop invariant](https://en.wikipedia.org/wiki/Loop_invariant).  
@@ -52,5 +54,7 @@ def sortColors(self, nums):
     return nums
 ```
 
-**Time complexity:** O(n), one pass  
-**Space complexity:** O(1) since we only use 3 integer variables
+**Time complexity**  
+O(n), one pass  
+**Space complexity**  
+O(1) since we only use 3 integer variables

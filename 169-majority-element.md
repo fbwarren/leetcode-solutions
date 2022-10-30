@@ -2,8 +2,7 @@
 
 **Main Idea**: I think solving this in linear time is probably easy enough for most people. The tricky part is solving this using constant space.
 
-## First Algorithm
-
+**First Algorithm**  
 This solution just iterates through the numbers while keeping track of their frequency in a hashmap.
 
 ```python
@@ -16,13 +15,13 @@ def majorityElement(nums):
             return num
 ```
 
-## Complexity
 
-**Time complexity:** O(n) where n == len(nums), since at worst we'll have to check each element.  
-**Space complexity:** O(n) because of the hash map.
+**Time complexity**  
+O(n) where n == len(nums), since at worst we'll have to check each element.  
+**Space complexity**  
+O(n) because of the hash map.
 
-## Better Algorithm
-
+**Better Algorithm**  
 This solution is known as the [Boyer-Moore majority vote algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm).  
 It takes advantage of the fact that a strict majority is guaranteed to exist.  
 Because of this guarantee, we only have to keep track of a single `candidate` value and its `count`.  
@@ -43,7 +42,7 @@ def majorityElement(nums):
     return candidate
 ```
 
-## Complexity
-
-**Time complexity:** O(n) since we iterate through all numbers.  
-**Space complexity:** O(1) because we only have `candidate` and `count`.
+**Time complexity**  
+O(n) since we iterate through all numbers.  
+**Space complexity**  
+O(1) because we only have `candidate` and `count`.
