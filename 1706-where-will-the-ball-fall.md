@@ -1,6 +1,6 @@
 # [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)
 
-**Main Idea**: Theres 4 cases that would stop a ball from falling. We can just follow the paths from top to bottom while checking for these cases.
+**Main Idea**: There are 4 cases that would stop a ball from falling. We can just follow the paths from top to bottom while checking for these cases.
 
 **Algorithm**  
 A ball will get stuck on a cell in the following cases:
