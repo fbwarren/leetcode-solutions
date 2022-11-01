@@ -2,17 +2,15 @@
 
 **Main Idea**: 
 
-## First Algorithm
-
+**Algorithm**  
 
 
 ```python
 
 ```
 
-## Complexity
-
 **Time complexity**  
+
 
 **Space complexity**  
 
