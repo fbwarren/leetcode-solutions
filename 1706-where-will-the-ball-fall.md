@@ -2,8 +2,7 @@
 
 **Main Idea**: Theres 4 cases that would stop a ball from falling. We can just follow the paths from top to bottom while checking for these cases.
 
-**Algorithm**
-
+**Algorithm**  
 A ball will get stuck on a cell in the following cases:
 
 1. The cell is a 1 and the cell is either in the last column, or its neighbor to the right is a -1
