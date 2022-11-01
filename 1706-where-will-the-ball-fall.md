@@ -35,7 +35,7 @@ def findBall(self, grid):
 ```
 
 **Time complexity**  
-O(m*n) since in the worst case we'd have to check the entire column for all but 1 ball.
+O(m*n) since in the worst case we'd have to check the entire column for all but one ball.
 
 **Space complexity**  
 O(n) where n is the number of balls.
