@@ -1,6 +1,7 @@
-# [](https://leetcode.com/problems/)
+# []()
 
-**Main Idea**: 
+**Main Idea**:  
+
 
 **Algorithm**  
 

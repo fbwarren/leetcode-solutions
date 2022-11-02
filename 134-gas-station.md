@@ -9,7 +9,7 @@ Variables:
 `curr`: The current gas usage.  
 
 Basically, we loop through all the stations and update `curr`.  
-If `curr` becomes negative, we update `start` to be the next gas station because of the logic discussed in **main idea**. 
+If `curr` becomes negative, we update `start` to be the next gas station because of the logic discussed in **main idea**.
 
 ```python
 def canCompleteCircuit(gas, cost):
