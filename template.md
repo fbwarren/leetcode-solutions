@@ -1,6 +1,6 @@
 # []()
 
-**Main Idea**:  
+**Main Idea**  
 
 
 **Algorithm**  
