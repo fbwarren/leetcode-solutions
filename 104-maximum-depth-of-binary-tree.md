@@ -20,7 +20,7 @@ def maxDepth(root: Optional[TreeNode]) -> int:
 ```
 
 **Time complexity**  
-
+$O(n)$ - we visit every node once
 
 **Space complexity**  
-
+$O(1)$ we don't use any data structures
